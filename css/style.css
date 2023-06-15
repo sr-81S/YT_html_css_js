@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #0F0F0F;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none !important;
+
+}
+i{
+    color: #fff;
+    font-size: 21px;    
+}
+
+/* some repeating code */
+
+.d-flex{
+    display: flex;
+}
+.d-center{
+    justify-content: center;
+    align-items: center;
+}
+.d-aline-space{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gap-2{
+    gap: 5px;
+}
+.gap-3{
+    gap: 8px;
+}
+.gap-4{
+    gap: 11px;
+}
+.gap-5{
+    gap: 15px;
+}
+
+
+.d-grid{
+    display: grid;
+}
+
+.grid-two-col{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-col{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/*------------------------------------
+         nav section start here
+-------------------------------------- */
+
+.nav-container{
+    height: 60px;
+    padding: 0 1.2rem;
+    /* background: #fff; */
+}
+
+
+/* logo and ham menu set */
+
+
+
+.fa-bars{
+    color: #fff;
+    font-size: 21px;
+}
+
+
+.yt-nav-logo{
+    max-height: 90px;
+    color :#FFFFFF;
+}
+
+/* round  btn */
+.round-btn{
+    padding: 9px 12px;
+    /* background: #FFFFFF; */
+    border-radius: 50px;
+}
+
+.round-btn:active, .round-btn:hover{
+    background: #272727;
+}
+
+/* search div */
+
+.search-container{
+    width: 60%;
+    height: auto;
+}
+
+.search-bar {
+    width: 60%;
+  }
+
+.search-bar input[type="text"]{
+  width: 89%;
+  height: 45px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  color: #fff;
+  background: #0F0F0F;
+  border: 2px solid #222222;
+  border-radius: 50px 0 0 50px;
+}
+
+.search-bar button{
+  width: 11%;
+  height: 45px;
+  border: 1px solid #222222 ;
+  border-left: 0;
+  border-radius: 0px 50px 50px 0;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  background-color: #222222;
+}
+
+
+/*------------------------------------
+ content and side bar section styles
+-------------------------------------- */
+.content-sidebar{
+    
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+/* side bar */
+.side-bar{
+    /* background: rebeccapurple; */
+  /* top: 0; */
+  height: 80vh;
+}
+
+.side-nav-icon{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-nav-icon p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.side-nav-icon hr{
+    margin: 1rem 0;
+    border: 1px solid #272727;
+}
+
+.side-nav-icon i{
+    font-size: 1rem;
+}
+
+.side-nav-btn{
+    align-items: center;
+    gap: 1.5rem; 
+   /* background: #0F0F0F; */
+    padding: 10px ;
+    border-radius: 10px;
+    margin: 1px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.side-nav-btn:hover, .side-nav-btn:active{
+    background: #222222;
+}
+
+.btn-active{
+    background: #222222;
+}
+
+
+/* content section */
+
+
+.content-area{
+    /* background: greenyellow; */
+    height: 80vh;
+    padding: 2rem 4rem;
+}
+
+
+
+
+/* ------------------------------------------
+            card sectionand styles
+--------------------------------------------- */
+
+.card{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.thumb-image{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.profile-title{
+    margin: 5px 0;
+}
+
+.profile-title h4{
+    max-width: 100%;
+}
+
+.channel-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.channel-name-views{
+    margin-top: 10px;
+}
+
+
